@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors = { 'Louis D\'hauwe' => 'louisdhauwe@silverfox.be' }
   s.source = { :git => 'https://github.com/louisdh/huekit.git', :tag => s.version }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   
   s.source_files = 'HueKit/**/*.swift'
 end
